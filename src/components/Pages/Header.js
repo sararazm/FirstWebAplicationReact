@@ -8,8 +8,8 @@ const Header = () => {
 
                 <Link to="/" style={{ textDecoration: "none", color: "white", paddingRight: '20px', paddingLeft: '20px' }}>Home</Link>
                 <Link to="/about" style={{ textDecoration: "none", color: "white", paddingRight: '20px', paddingLeft: '20px' }}>About</Link>
-                <Link to="/contact" style={{ textDecoration: "none", color: "white", paddingRight: '20px', paddingLeft: '20px' }}>Contact</Link>
-                <Link to="/contact" style={{ textDecoration: "none", color: "white", paddingRight: '20px', paddingLeft: '20px' }}>test</Link>
+                <Link to="/registration" style={{ textDecoration: "none", color: "white", paddingRight: '20px', paddingLeft: '20px' }}>Registration</Link>
+                <Link to="/test" style={{ textDecoration: "none", color: "white", paddingRight: '20px', paddingLeft: '20px' }}>Test</Link>
 
             </nav>
 

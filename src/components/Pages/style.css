@@ -1,7 +1,7 @@
 .container {
     width: 80%;
     height: 400px;
-    background-color: aquamarine;
+    background-color: lightblue;
     padding: 10px 40px 10p 40px;
     margin: 5px 10% 5px 10%;
 }
@@ -12,8 +12,25 @@ h1 {
     text-align: center;
 }
 
+h3 {
+    font-size: 60x;
+    color: darkslateblue;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 p {
     color: darkslategray;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.count-button {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#no-page {
+    font-size: 100px;
 }
