@@ -1,24 +1,20 @@
 import { Outlet, Link } from "react-router-dom";
+import "./Header.css"
 
 const Header = () => {
     return (
-        <>
+        <div className="fixed-header">
             <nav>
-                <ul>
-                    <li>
-                        <Link to="/">Home</Link>
-                    </li>
-                    <li>
-                        <Link to="/about">About</Link>
-                    </li>
-                    <li>
-                        <Link to="/contact">Contact</Link>
-                    </li>
-                </ul>
+
+                <Link to="/" style={{ textDecoration: "none", color: "white", paddingRight: '20px', paddingLeft: '20px' }}>Home</Link>
+                <Link to="/about" style={{ textDecoration: "none", color: "white", paddingRight: '20px', paddingLeft: '20px' }}>About</Link>
+                <Link to="/contact" style={{ textDecoration: "none", color: "white", paddingRight: '20px', paddingLeft: '20px' }}>Contact</Link>
+                <Link to="/contact" style={{ textDecoration: "none", color: "white", paddingRight: '20px', paddingLeft: '20px' }}>test</Link>
+
             </nav>
 
             <Outlet />
-        </>
+        </div>
     )
 };
 

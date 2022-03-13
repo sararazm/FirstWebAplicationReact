@@ -1,0 +1,19 @@
+.container {
+    width: 80%;
+    height: 400px;
+    background-color: aquamarine;
+    padding: 10px 40px 10p 40px;
+    margin: 5px 10% 5px 10%;
+}
+
+h1 {
+    font-size: 60x;
+    color: darkslateblue;
+    text-align: center;
+}
+
+p {
+    color: darkslategray;
+    padding-left: 20px;
+    padding-right: 20px;
+}
