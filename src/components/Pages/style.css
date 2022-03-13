@@ -34,3 +34,8 @@ p {
 #no-page {
     font-size: 100px;
 }
+
+.color-btn {
+    margin-left: 20px;
+    margin-right: 20px;
+}

@@ -21,7 +21,7 @@ function Home() {
             <p>
                 For changing the background color of content, press the button below:
             </p>
-            <button onClick={changeBackgroundColor}>Change the color</button>
+            <button className="color-btn" onClick={changeBackgroundColor}>Change the color</button>
 
         </div>
     )
